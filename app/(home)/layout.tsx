@@ -21,9 +21,7 @@ export default async function HomeLayout({
 
       {/* Content for medium and large screens */}
       <div className="hidden md:block">
-        <SiteHeader session={session} />
         {children}
-        <Footer />
       </div>
     </div>
   )
